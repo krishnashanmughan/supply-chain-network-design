@@ -12,10 +12,7 @@ A manufacturing entity operates two main factories (with maximum supply capaciti
 ## Mathematical Formulation:
 **Objective Function:** 
 - Minimize the sum of variable shipping costs, fixed depot opening costs, and discrete expansion costs.
-**Continuous Variables:**
-- Flow of goods across permitted arcs (factory-to-depot, depot-to-customer, factory-to-customer).
-* **Binary Variables:**
-- Facility opening decisions ($open_d \in \{0, 1\}$) and the capacity expansion decision ($expand \in \{0, 1\}$).
+
 * **Constraints:**
 - Strict flow conservation at intermediate depots.
 - Factory production limits and capacitated depot throughputs.
