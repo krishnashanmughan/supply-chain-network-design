@@ -1,8 +1,6 @@
 # supply-chain-network-design
 Mixed-Integer Linear Programming (MILP) model for optimizing a multi-echelon supply chain network, featuring automated sensitivity analysis using Python and Gurobi.
 
-- Beyond a static baseline solve, this project includes automated scripts to perform **sensitivity analysis**, evaluating network robustness against fluctuating transportation rates, capacity expansion costs, and dynamic customer demand.
-
 ### The Business Problem
 A manufacturing entity operates two main factories (with maximum supply capacities) and serves six distinct customer markets (with known demands). The product must be routed through a set of intermediate depots. 
 
