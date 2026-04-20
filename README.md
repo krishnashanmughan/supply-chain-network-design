@@ -13,7 +13,7 @@ A manufacturing entity operates two main factories (with maximum supply capaciti
 **Objective Function:** 
 - Minimize the sum of variable shipping costs, fixed depot opening costs, and discrete expansion costs.
 
-* **Constraints:**
+**Constraints:**
 - Strict flow conservation at intermediate depots.
 - Factory production limits and capacitated depot throughputs.
 - Exact satisfaction of end-customer demand.
